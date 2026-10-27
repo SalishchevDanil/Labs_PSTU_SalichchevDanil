@@ -5,6 +5,10 @@ using namespace std; //Использую пространство имен std
 // Функция для float 
 float Ff(float a, float b) {
     float sum = a + b;
+    cout<<"sum = a+b:"<<sum;
+    cout<<"(a+b)^4:"<<sum*sum*sum*sum;
+    cout<<"(a^4+4*a^3*b):"<<(a * a * a * a + 4 * a * a * a * b);
+    cout<<"(6*a^2*b^2+a*b^3+a^3*b):"<<(6 * a * a * b * b + 4 * a * b * b * b + b * b * b * b);
     return (sum * sum * sum * sum - (a * a * a * a + 4 * a * a * a * b)) / 
            (6 * a * a * b * b + 4 * a * b * b * b + b * b * b * b); //Функция возвращает результат
 }
@@ -12,6 +16,10 @@ float Ff(float a, float b) {
 // Функция для double
 double Fd(double a, double b) {
     double sum = a + b;
+    cout<<"sum = a+b:"<<sum;
+    cout<<"(a+b)^4:"<<sum*sum*sum*sum;
+    cout<<"(a^4+4*a^3*b):"<<(a * a * a * a + 4 * a * a * a * b);
+    cout<<"(6*a^2*b^2+a*b^3+a^3*b):"<<(6 * a * a * b * b + 4 * a * b * b * b + b * b * b * b);
     return (sum * sum * sum * sum - (a * a * a * a + 4 * a * a * a * b)) / 
            (6 * a * a * b * b + 4 * a * b * b * b + b * b * b * b); //Функция возвращает результат
 }
