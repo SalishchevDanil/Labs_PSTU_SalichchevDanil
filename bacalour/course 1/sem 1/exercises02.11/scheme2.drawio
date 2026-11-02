@@ -1,0 +1,86 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Page-1" id="GWpeBU9A0b32ZIRq72MG">
+    <mxGraphModel dx="986" dy="968" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="n8S4gk9R25uenYHCokGV-1" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Начало" vertex="1">
+          <mxGeometry height="50" width="120" x="240" y="10" as="geometry" />
+        </mxCell>
+        <mxCell id="n8S4gk9R25uenYHCokGV-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="int n, s=0, a=1;" vertex="1">
+          <mxGeometry height="40" width="240" x="180" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="n8S4gk9R25uenYHCokGV-3" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" value="cin&gt;&gt;n;" vertex="1">
+          <mxGeometry height="40" width="160" x="220" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="n8S4gk9R25uenYHCokGV-4" parent="1" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;" value="for (int i=1;i&lt;=n;++i)" vertex="1">
+          <mxGeometry height="60" width="360" x="120" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="n8S4gk9R25uenYHCokGV-5" parent="1" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;" value="for (int j=i;j&lt;=2*i;++j)" vertex="1">
+          <mxGeometry height="60" width="400" x="100" y="330" as="geometry" />
+        </mxCell>
+        <mxCell id="n8S4gk9R25uenYHCokGV-6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="a=a*i;" vertex="1">
+          <mxGeometry height="40" width="160" x="220" y="430" as="geometry" />
+        </mxCell>
+        <mxCell id="n8S4gk9R25uenYHCokGV-7" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="s+=a;" vertex="1">
+          <mxGeometry height="40" width="160" x="560" y="350" as="geometry" />
+        </mxCell>
+        <mxCell id="n8S4gk9R25uenYHCokGV-8" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" value="cout&amp;lt;&amp;lt;s;" vertex="1">
+          <mxGeometry height="45" width="160" x="220" y="570" as="geometry" />
+        </mxCell>
+        <mxCell id="n8S4gk9R25uenYHCokGV-9" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="return 0;" vertex="1">
+          <mxGeometry height="55" width="120" x="240" y="660" as="geometry" />
+        </mxCell>
+        <mxCell id="n8S4gk9R25uenYHCokGV-10" edge="1" parent="1" source="n8S4gk9R25uenYHCokGV-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;" target="n8S4gk9R25uenYHCokGV-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n8S4gk9R25uenYHCokGV-11" edge="1" parent="1" source="n8S4gk9R25uenYHCokGV-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;" target="n8S4gk9R25uenYHCokGV-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n8S4gk9R25uenYHCokGV-12" edge="1" parent="1" source="n8S4gk9R25uenYHCokGV-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;" target="n8S4gk9R25uenYHCokGV-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n8S4gk9R25uenYHCokGV-13" edge="1" parent="1" source="n8S4gk9R25uenYHCokGV-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontStyle=1;" target="n8S4gk9R25uenYHCokGV-5" value="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n8S4gk9R25uenYHCokGV-14" edge="1" parent="1" source="n8S4gk9R25uenYHCokGV-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontStyle=1;exitX=1;exitY=0.5;entryX=1;entryY=0.5;" target="n8S4gk9R25uenYHCokGV-8" value="0">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="750" y="260" />
+              <mxPoint x="750" y="592.5" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="n8S4gk9R25uenYHCokGV-15" edge="1" parent="1" source="n8S4gk9R25uenYHCokGV-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontStyle=1;" target="n8S4gk9R25uenYHCokGV-6" value="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n8S4gk9R25uenYHCokGV-16" edge="1" parent="1" source="n8S4gk9R25uenYHCokGV-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontStyle=1;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" target="n8S4gk9R25uenYHCokGV-7" value="0">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="560" y="360" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="n8S4gk9R25uenYHCokGV-17" edge="1" parent="1" source="n8S4gk9R25uenYHCokGV-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;exitX=0;exitY=0.5;entryX=0;entryY=0.5;" target="n8S4gk9R25uenYHCokGV-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="40" y="450" />
+              <mxPoint x="40" y="360" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="n8S4gk9R25uenYHCokGV-18" edge="1" parent="1" source="n8S4gk9R25uenYHCokGV-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;exitX=0.5;exitY=0;entryX=0.5;entryY=0;" target="n8S4gk9R25uenYHCokGV-4">
+          <mxGeometry relative="1" x="0.004" as="geometry">
+            <Array as="points">
+              <mxPoint x="640" y="210" />
+              <mxPoint x="300" y="210" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="n8S4gk9R25uenYHCokGV-19" edge="1" parent="1" source="n8S4gk9R25uenYHCokGV-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;" target="n8S4gk9R25uenYHCokGV-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
